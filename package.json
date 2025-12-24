@@ -1,0 +1,39 @@
+{
+  "name": "langchain-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "basic-chat": "tsx src/basic-chat.ts",
+    "prompt-template": "tsx src/prompt-template.ts",
+    "streaming": "tsx src/streaming-response.ts",
+    "basic-instruction": "tsx src/basic-instruction.ts",
+    "chat-prompt": "tsx src/chat-prompt.ts",
+    "few-shot": "tsx src/few-shot.ts",
+    "pipeline": "tsx src/pipeline.ts",
+    "outparser": "tsx src/outparser.ts",
+    "zod": "tsx src/zod.ts",
+    "runnable-compose": "tsx src/runnable-compose.ts",
+    "memory-window": "tsx src/memory-window.ts",
+    "callbacks": "tsx src/callbacks.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "nodemon": "^3.1.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.1",
+    "@langchain/core": "^1.1.8",
+    "dotenv": "^17.2.3",
+    "zod": "^4.2.1"
+  }
+}
