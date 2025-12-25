@@ -18,7 +18,11 @@
     "zod": "tsx src/zod.ts",
     "runnable-compose": "tsx src/runnable-compose.ts",
     "memory-window": "tsx src/memory-window.ts",
-    "callbacks": "tsx src/callbacks.ts"
+    "callbacks": "tsx src/callbacks.ts",
+    "rag-faq": "tsx src/ch02/rag-faq/server.ts",
+    "rag-faq:test": "tsx src/ch02/rag-faq/server.ts test",
+    "rag-faq:batch": "tsx src/ch02/rag-faq/server.ts batch",
+    "rag-faq:ingest": "tsx src/ch02/rag-faq/server.ts ingest"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +37,7 @@
   "dependencies": {
     "@langchain/community": "^1.1.1",
     "@langchain/core": "^1.1.8",
+    "@langchain/openai": "^1.2.0",
     "dotenv": "^17.2.3",
     "zod": "^4.2.1"
   }
