@@ -48,7 +48,33 @@ npm run rag-faq:test "什么是 LangChain.js？"
 npm run rag-faq:batch
 ```
 
-详细文档：[查看 README](./src/ch02/rag-faq/README.md) | [使用指南](./src/ch02/rag-faq/USAGE.md)
+详细文档：[查看 README](./src/ch02/rag-faq/README.md)
+
+#### 🧠 [Ch03: Memory 系统与对话状态管理](./src/ch03/README.md)
+
+系统理解 LangChain.js 的 Memory 体系，掌握短期/长期/摘要/向量记忆等多种方案。
+
+**特性**：
+- ✅ MessagesPlaceholder 注入历史对话
+- ✅ Buffer/Window/Summary/Vector 多种记忆方案
+- ✅ Redis/MongoDB 持久化
+- ✅ 多用户会话管理
+- ✅ 个性化学习助手
+
+**快速开始**：
+
+```bash
+# 基础示例
+npm run memory:basic-placeholder
+npm run memory:window-buffer
+npm run memory:summary
+
+# 实战项目
+npm run memory:multi-session
+npm run memory:learning-assistant
+```
+
+详细文档：[查看 README](./src/ch03/README.md)
 
 ## 🚀 快速开始
 
