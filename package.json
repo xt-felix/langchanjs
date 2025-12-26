@@ -39,7 +39,10 @@
     "callback:stream": "tsx src/ch04/stream-cli.ts",
     "callback:cancel": "tsx src/ch04/cancel.ts",
     "callback:runnable": "tsx src/ch04/runnable-callback.ts",
-    "callback:realtime-chat": "tsx src/ch04/realtime-chat/server.ts"
+    "callback:realtime-chat": "tsx src/ch04/realtime-chat/server.ts",
+    "runnable:sequence": "tsx src/ch05/sequence-basic.ts",
+    "runnable:lambda": "tsx src/ch05/lambda-basic.ts",
+    "runnable:parallel": "tsx src/ch05/parallel-basic.ts"
   },
   "keywords": [],
   "author": "",

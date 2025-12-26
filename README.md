@@ -76,6 +76,53 @@ npm run memory:learning-assistant
 
 详细文档：[查看 README](./src/ch03/README.md)
 
+#### 📡 [Ch04: Callback 机制与事件驱动架构](./src/ch04/README.md)
+
+全面掌握 LangChain.js 的 Callback 体系，实现流式输出、进度上报、链路追踪与实时监控。
+
+**特性**：
+- ✅ 自定义 CallbackHandler（指标收集）
+- ✅ 流式输出（打字机效果）
+- ✅ 取消和超时控制
+- ✅ Runnable 回调融合（链路追踪）
+- ✅ 实时聊天系统
+
+**快速开始**：
+
+```bash
+# 基础示例
+npm run callback:console
+npm run callback:metrics
+npm run callback:stream
+
+# 实战项目
+npm run callback:realtime-chat
+```
+
+详细文档：[查看 README](./src/ch04/README.md)
+
+#### 🔧 [Ch05: Runnable 接口与任务编排系统](./src/ch05/README.md)
+
+掌握 LangChain.js 的 Runnable 抽象，构建可组合、可复用、可测试的智能工作流。
+
+**特性**：
+- ✅ RunnableLambda/Sequence/Parallel
+- ✅ 顺序流水线、条件分支、扇出/汇聚
+- ✅ 流式处理、批量处理
+- ✅ 错误处理、重试机制
+- ✅ 内容处理流水线、RAG ETL
+
+**快速开始**：
+
+```bash
+# 核心概念
+npm run runnable:sequence
+npm run runnable:lambda
+npm run runnable:parallel
+```
+
+详细文档：[查看 README](./src/ch05/README.md)
+
 ## 🚀 快速开始
 
 ### 1. 安装依赖
