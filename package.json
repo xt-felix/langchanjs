@@ -33,7 +33,13 @@
     "memory:callback": "tsx src/ch03/memory-callback.ts",
     "memory:langgraph": "tsx src/ch03/langgraph-memory.ts",
     "memory:multi-session": "tsx src/ch03/multi-session-center/server.ts",
-    "memory:learning-assistant": "tsx src/ch03/learning-assistant/orchestrator.ts"
+    "memory:learning-assistant": "tsx src/ch03/learning-assistant/orchestrator.ts",
+    "callback:console": "tsx src/ch04/console-callback.ts",
+    "callback:metrics": "tsx src/ch04/with-metrics.ts",
+    "callback:stream": "tsx src/ch04/stream-cli.ts",
+    "callback:cancel": "tsx src/ch04/cancel.ts",
+    "callback:runnable": "tsx src/ch04/runnable-callback.ts",
+    "callback:realtime-chat": "tsx src/ch04/realtime-chat/server.ts"
   },
   "keywords": [],
   "author": "",
