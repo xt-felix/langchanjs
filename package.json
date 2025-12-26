@@ -42,7 +42,12 @@
     "callback:realtime-chat": "tsx src/ch04/realtime-chat/server.ts",
     "runnable:sequence": "tsx src/ch05/sequence-basic.ts",
     "runnable:lambda": "tsx src/ch05/lambda-basic.ts",
-    "runnable:parallel": "tsx src/ch05/parallel-basic.ts"
+    "runnable:parallel": "tsx src/ch05/parallel-basic.ts",
+    "vector:embedding-basic": "tsx src/ch06/embedding-basic.ts",
+    "vector:search": "tsx src/ch06/vector-search.ts",
+    "vector:hybrid": "tsx src/ch06/hybrid-search.ts",
+    "vector:rag-qa": "tsx src/ch06/rag-qa.ts",
+    "vector:enterprise-search": "tsx src/ch06/enterprise-search/search-engine.ts"
   },
   "keywords": [],
   "author": "",
